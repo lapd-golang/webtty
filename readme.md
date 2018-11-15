@@ -10,6 +10,7 @@ There are a handful of bugs to fix, but everything works pretty well at the mome
 
 ### Installation
 ```bash
+sudo apt-get install pkg-config -y
 go get -u github.com/maxmcd/webtty
 ```
 WebTTY uses the wonderful [pions/webrtc](https://github.com/pions/webrtc) for WebRTC communication. It currently requires OpenSSL to build. More here: [https://github.com/pions/webrtc#install](https://github.com/pions/webrtc#install)
